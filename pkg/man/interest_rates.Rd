@@ -28,9 +28,9 @@ data("ZCB_USD")
 }
 \source{
   \code{ZCB_CAD} was created from data obtained from
-  \url{http://www.bankofcanada.ca/rates/interest-rates/bond-yield-curves/}
+  \url{https://www.bankofcanada.ca/rates/interest-rates/bond-yield-curves/}
   multiplied by 100. \code{ZCB_USD} was obtained from
-  \url{https://www.quandl.com/data/FED/SVENY-US-Treasury-Zero-Coupon-Yield-Curve}
+  \url{https://data.nasdaq.com/data/FED/SVENY-us-treasury-zerocoupon-yield-curve/}
   via Quandl. Both data sets were drawn on 2016-01-03 (\code{ZCB_USD} via the
   function \code{get_data()} from \CRANpkg{qrmtools}).
 }

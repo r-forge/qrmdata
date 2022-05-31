@@ -19,7 +19,8 @@ data("VIX")
 }
 \details{
 The VIX is typically used as a market-based measure of volatility in
-percent; see the white paper \url{https://www.cboe.com/micro/vix/vixwhite.pdf}
+percent; see the white paper
+\url{https://cdn.cboe.com/resources/vix/vixwhite.pdf}
 on how the VIX is constructed.
 }
 \author{Marius Hofert}

@@ -39,7 +39,7 @@ data("CNY_GBP")
   2000-01-01 to 2015-12-31.
 }
 \source{
-  The data was obtained from OANDA (\url{http://www.oanda.com/}) on
+  The data was obtained from OANDA (\url{https://www.oanda.com/}) on
   2016-01-03 via the
   function \code{get_data()} from \CRANpkg{qrmtools}.
 }
