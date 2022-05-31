@@ -96,17 +96,17 @@ save(NIKKEI, file = "NIKKEI.rda", compress = "xz")
 
 ### 3.1 S&P 500 ################################################################
 
-## As constituent data is not available on finance.yahoo.com, we do the following:
-## 1) Copy the ticker table from https://www.cboe.com/products/snp500.aspx without
-##    header and paste it to a .csv (e.g. in LibreOffice).
-## 2) Remove all columns except: Ticker, GICS, GICS subsectors
-## 3) Save it as a .csv file.
+## As constituent data is not available publicly anymore, we do (done 2015-12-10):
+## 1) Copy the whole table from https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+##    and paste it into a file data_SP500_const_tab.csv
+## 2) Remove all columns except: Ticker, GICS, GICS subsectors (e.g. in LibreOffice)
+##    (make sure there is no trailing comma)
+## 3) Save it as a .csv file and store it in ./pkg/misc/data_SP500_const_tab.csv
 
 ## S&P 500 constituents
-## See https://www.cboe.com/products/snp500.aspx (updated 2015-10-12)
 SP500_const_info <- read.table("../misc/data_SP500_const_tab.csv", sep = ",")
 colnames(SP500_const_info) <- c("Ticker", "Sector", "Subsector")
-SP500_const <- get_data(SP500_const_info[,1], to = end) # get data for these tickers (takes a while)
+SP500_const <- get_data(SP500_const_info[,1], to = end) # get data for these tickers (~= 4min)
 SP500_const <- round(SP500_const, digits = 2) # round to fit in a single R package
 save(SP500_const, SP500_const_info, file = "SP500_const.rda", compress = "xz")
 

@@ -20,7 +20,7 @@ data("HSI_const")
 \format{
   \code{\link{xts}} objects containing adjusted close prices of the
   constituents of the respective stock indices. These are
-  the S\&P 500 constituents (\code{SP500_const} with corresponding
+  the S&P 500 constituents (\code{SP500_const} with corresponding
   Global Industry Classification Standard (GICS) information
   \code{SP500_const_info}; see
   \url{https://en.wikipedia.org/wiki/List_of_S\%26P_500_companies};
@@ -45,7 +45,7 @@ data("HSI_const")
   on 2016-01-03 via the function \code{get_data()} from
   \CRANpkg{qrmtools}.
 
-  Note that for the S\&P 500 constituents, the data was rounded to two
+  Note that for the S&P 500 constituents, the data was rounded to two
   decimal places to reduce the file size of the data set.
 }
 \author{Marius Hofert}
