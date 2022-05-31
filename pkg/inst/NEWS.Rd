@@ -3,7 +3,7 @@
 \name{NEWS}
 \title{News for \R Package \pkg{qrmdata}}
 \newcommand{\CRANpkg}{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}
-\section{Changes in latest (devel) version}{
+\section{Changes in version 2022-05-31-1}{
   \itemize{
     \item Updated documentation of VIX to reflect that it is market
           volatility in percent.
