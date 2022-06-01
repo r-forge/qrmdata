@@ -25,8 +25,9 @@ data("HSI_const")
   \code{SP500_const_info}; see
   \url{https://en.wikipedia.org/wiki/List_of_S\%26P_500_companies};
   given these tickers, the data was obtained from Yahoo! Finance)
-  as of 2015-10-12, the Dow Jones constituents (\code{DJ_const}) as of
-  2016-01-03, the FTSE 100 constituents (\code{FTSE_const}; see
+  as of 2015-10-12, the Dow Jones constituents (\code{DJ_const};
+  information about the constituents not available anymore)
+  as of 2016-01-03, the FTSE 100 constituents (\code{FTSE_const}; see
   \url{https://uk.finance.yahoo.com/quote/\%5EFTSE/components?ltr=1/}) as of
   2016-01-03 (the data was only available for 98 constituents),
   the Euro Stoxx 50 constituents (\code{EURSTX_const}; see
