@@ -23,18 +23,19 @@ data("HSI_const")
   the S&P 500 constituents (\code{SP500_const} with corresponding
   Global Industry Classification Standard (GICS) information
   \code{SP500_const_info}; see
-  \url{https://en.wikipedia.org/wiki/List_of_S\%26P_500_companies/};
+  \url{https://en.wikipedia.org/wiki/List_of_S\%26P_500_companies};
   given these tickers, the data was obtained from \url{https://finance.yahoo.com/})
   as of 2015-10-12, the Dow Jones constituents (\code{DJ_const}; see
-  \url{https://finance.yahoo.com/q/cp?s=\%5EDJI}) as of 2016-01-03,
-  the FTSE 100 constituents (\code{FTSE_const}; see
-  \url{https://uk.finance.yahoo.com/q/cp?s=\%5EFTSE}) as of 2016-01-03
-  (the data was only available for 98 constituents),
+  \url{https://finance.yahoo.com/quote/\%5EDJI/components?ltr=1}) as of
+  2016-01-03, the FTSE 100 constituents (\code{FTSE_const}; see
+  \url{https://uk.finance.yahoo.com/quote/\%5EFTSE/components?ltr=1}) as of
+  2016-01-03 (the data was only available for 98 constituents),
   the Euro Stoxx 50 constituents (\code{EURSTX_const}; see
-  \url{https://uk.finance.yahoo.com/q/cp?s=\%5ESTOXX50E}) as of 2016-01-03
-  (the data was only available for 98 constituents) and
+  \url{https://uk.finance.yahoo.com/quote/\%5ESTOXX50E/components?ltr=1})
+  as of 2016-01-03 (the data was only available for 98 constituents) and
   the Hang Seng Index constituents (\code{HSI_const};
-  see \url{https://uk.finance.yahoo.com/q/cp?s=\%5EHSI}) as of 2016-01-03.
+  see \url{https://uk.finance.yahoo.com/quote/\%5EHSI/components?ltr=1})
+  as of 2016-01-03.
 
   The constituents data ranges from the first date at least
   one of the constituents is available (with missing
