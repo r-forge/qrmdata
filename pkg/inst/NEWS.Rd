@@ -12,7 +12,7 @@
 \section{Changes in version 2019-12-03-1}{
   \subsection{New Features}{
     \itemize{
-      \item Standard \& Poor's default data
+      \item Standard & Poor's default data
       \item Danish fire insurance data
       \item DNB data
     }
